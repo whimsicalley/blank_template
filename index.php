@@ -3,7 +3,7 @@
   <!-- Begin Section Container -->
     <section class="row">
       <div class="twelve columns">
-        <h2>Section content - cool</h2>
+        <h3>Section content - cool</h3>
         <p>This is some section content.</p>
       </div>
     </section>
