@@ -8,6 +8,9 @@ License: Open
 Text Domain: alley_manalio_blank_template
 */
 
+@import url("stylesheet/normalize.css");
+@import url("stylesheet/skeleton.css");
+
 * {
     color: #000000;
     font-size: 14px;
