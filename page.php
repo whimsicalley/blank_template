@@ -1,19 +1,23 @@
 <?php get_header(); ?>
 
+<!-- Begin Section Container -->
   <section class="row">
     <div class="twelve columns">
-<!-- BEGIN PAGE PHP -->
-      <?php if ( have_posts() ) {
-        while ( have_posts() ) {
-          /* OUR DATA CONTEXT IS DEFINED */
-          the_post(); ?>
+      <!-- Begin Loop -->
+      <?php
+        if ( have_posts() ) {
+          while ( have_posts() ) {
+            /* OUR DATA CONTEXT IS DEFINED */
+            the_post(); ?>
 
-          <h2><?php the_title(); ?></h2>
-          <?php the_content();
+            <h2><?php the_title(); ?></h2>
+            <?php the_content();
+          }
         }
-      } ?>
-<!-- END PAGE PHP -->
+      ?>
+      <!-- End Loop -->
     </div>
   </section>
+<!-- End Section Container -->
 
 <?php get_footer(); ?>
