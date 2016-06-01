@@ -8,8 +8,8 @@ License: Open
 Text Domain: alley_manalio_blank_template
 */
 
-@import url("stylesheet/normalize.css");
-@import url("stylesheet/skeleton.css");
+@import url("stylesheets/normalize.css");
+@import url("stylesheets/skeleton.css");
 
 * {
     color: #000000;
