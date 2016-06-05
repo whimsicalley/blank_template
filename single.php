@@ -15,7 +15,7 @@
                   <?php the_post_thumbnail('large'); ?>
                 </div>
               <?php } ?>
-              
+
             <h2><?php the_title(); ?></h2>
             <?php the_content();
           }
